@@ -30,7 +30,7 @@ switch(myDay){
 
  	case 2:
    	today = "Tuesday";
-    coffe = {
+    coffee = {
         name:"Bubble Tea",
         pic:"bubble-tea.jpg",
         alt:"A pic of a Yummy bubble tea.",
@@ -44,5 +44,27 @@ switch(myDay){
     	today = "Something went wrong!";
 
 }
- alert(today);
- console.log(coffe);
+ 
+ console.log(coffee);
+
+ alert(coffeeTemplate(coffee));
+
+ //adds coffee to page?
+ document.getElementById("coffee-cup").innerHTML = coffeeTemplate(coffee);
+ document.querySelector("html").style.backgroundColor = coffee.color;
+
+
+
+function coffeeTemplate(coffee){
+    let myReturn = "";
+
+    myReturn += `
+  <p>
+            <img src="images/${coffee.pic}" alt="${coffee.alt}" id="coffee">
+            <strong>${coffee.day}'s Coffee Special:</strong>${coffee.name} <strong>${coffee.desc}</strong>,
+        
+        </p>
+    `;
+
+    return myReturn;
+}
