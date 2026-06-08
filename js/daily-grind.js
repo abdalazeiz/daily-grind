@@ -36,6 +36,8 @@ if(urlParams.has("day")){
 // retrive data from querydtring,if exists 
 myDay = urlParams.get("day");
 }
+// turn string into a numbers
+myDay = parseInt(myDay);
 
 switch(myDay){
 
@@ -79,6 +81,10 @@ switch(myDay){
  //adds coffee to page?
  document.getElementById("coffee-cup").innerHTML = coffeeTemplate(coffee);
  document.querySelector("html").style.backgroundColor = coffee.color;
+ // change strong tag in templte to our color
+document.querySelectorAll("#coffee-cup strong").forEach(el => {
+    el.style.color = coffee.color;
+})
 
 
 
