@@ -76,7 +76,7 @@ switch(myDay){
  
  console.log(coffee);
 
- alert(coffeeTemplate(coffee));
+ alert(today);
 
  //adds coffee to page?
  document.getElementById("coffee-cup").innerHTML = coffeeTemplate(coffee);
