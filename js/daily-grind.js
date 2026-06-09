@@ -87,17 +87,17 @@ switch(myDay){
         };
     break;
 
-    case 6:
-        today = "Saturday";
-        coffee = {
-            name:"Espresso",
-            pic:"espresso.jpg",
-            alt:"A strong shot of espresso.",
-            color:"#2E1A12",
-            day:"Saturday",
-            desc:"Saturday’s Espresso is bold and powerful, perfect for starting your weekend with energy."
-        };
-    break;
+  case 6:
+    today = "Saturday";
+    coffee = {
+        name: "Frappaccino",
+        pic: "frappaccino.jpg",
+        alt: "A creamy blended frappaccino topped with whipped cream.",
+        color: "#8B5A2B",
+        day: "Saturday",
+        desc: "Saturday’s Frappaccino is smooth, icy, and refreshing—perfect for relaxing and enjoying the weekend vibes."
+    };
+break;
 
     default:
         today = "Something went wrong!";
