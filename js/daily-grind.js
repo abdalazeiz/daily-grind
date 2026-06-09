@@ -1,7 +1,7 @@
 let myDate = new Date();
 let myDay = myDate.getDay();
 let today = "";
-let coffee = {}; // ✅ FIX: declare object
+
 
 // get query string
 const queryString = window.location.search;
