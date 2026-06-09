@@ -66,12 +66,12 @@ switch(myDay){
     case 4:
         today = "Thursday";
         coffee = {
-            name:"Vanilla Latte",
-            pic:"vanilla-latte.jpg",
-            alt:"A creamy vanilla latte with foam.",
+            name:"Caramel Latte",
+            pic:"caramel-latte.jpg",
+            alt:"A creamel latte with foam.",
             color:"#F3E5AB",
             day:"Thursday",
-            desc:"Thursday’s Vanilla Latte is creamy and comforting, helping you stay focused as the week winds down."
+            desc:"Thursday’s Caramel Latte is creamy and comforting, helping you stay focused as the week winds down."
         };
     break;
 
