@@ -44,6 +44,16 @@ switch(myDay){
  	case 0:
     	today =  "Sunday";
  	break;
+    case 1:
+   	today = "monday";
+    coffee = {
+        name:"mocha",
+        pic:"mocha.jpg",
+        alt:"A pic of mocha.",
+        color:"brown",
+        day:"monday",
+        desc:'I like me mocha coffee'
+    };
 
  	case 2:
    	today = "Tuesday";
